@@ -1,128 +1,81 @@
-e JAISUKDEE<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="th">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Methee JAISUKDEE</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>โรงเรียนกรรณสูตศึกษาลัย</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
     body {
-      margin: 0;
-      font-family: 'Inter', sans-serif;
-      background: #f4f4f4;
-      color: #333;
-      line-height: 1.6;
+      font-family: 'Sarabun', sans-serif;
     }
-    header {
-      background: #fff;
-      text-align: center;
-      padding: 2rem 1rem;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+
+    h1, h2, h3 {
+      color: #003366;
     }
-    h1 {
-      margin: 0;
-      font-size: 2.5rem;
-      font-weight: 600;
+
+    .navbar-brand {
+      font-weight: bold;
     }
-    nav {
-      margin-top: 1rem;
-    }
-    nav a {
-      margin: 0 1rem;
-      text-decoration: none;
-      color: #007acc;
-      font-weight: 500;
-    }
-    section {
-      max-width: 700px;
-      margin: 2rem auto;
-      padding: 1rem;
-      background: #fff;
-      border-radius: 8px;
-    }
-    h2 {
-      color: #222;
-      font-size: 1.8rem;
-      margin-bottom: 0.5rem;
-    }
+
     footer {
-      text-align: center;
-      margin-top: 4rem;
-      padding: 2rem 1rem;
-      font-size: 0.9rem;
-      color: #777;
-    }
-    a {
-      color: #007acc;
+      background-color: #003366;
+      color: white;
     }
   </style>
 </head>
 <body>
+  <!-- เมนูนำทาง -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">กรรณสูตศึกษาลัย</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#">หน้าแรก</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">เกี่ยวกับเรา</a></li>
+          <li class="nav-item"><a class="nav-link" href="#staff">บุคลากร</a></li>
+          <li class="nav-item"><a class="nav-link" href="#departments">กลุ่มสาระ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">ติดต่อเรา</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-  <header>
-    <h1>methee jaisukdee</h1>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#portfolio">Portfolio</a>
-      <a href="#blog">Blog</a>
-      <a href="#contact">Contact</a>
-    </nav>
+  <!-- ส่วนเนื้อหาหลัก -->
+  <header class="bg-light py-5">
+    <div class="container text-center">
+      <h1 class="display-4">ยินดีต้อนรับสู่โรงเรียนกรรณสูตศึกษาลัย</h1>
+      <p class="lead">โรงเรียนมัธยมศึกษาประจำจังหวัดสุพรรณบุรี</p>
+    </div>
   </header>
 
- <section id="calendar">
-  <h2>About</h2>
-  <p>ตารางงานที่สำคัญในภาคฤดูร้อน 2568:</p>
-  <table style="width:100%; border-collapse: collapse;">
-    <thead>
-      <tr style="background-color: #e9ecef;">
-        <th style="text-align: left; padding: 8px; border-bottom: 1px solid #ccc;">วัน</th>
-        <th style="text-align: left; padding: 8px; border-bottom: 1px solid #ccc;">วันที่</th>
-        <th style="text-align: left; padding: 8px; border-bottom: 1px solid #ccc;">รายละเอียด</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td style="padding: 8px; border-bottom: 1px solid #eee;">จันทร์</td>
-        <td style="padding: 8px; border-bottom: 1px solid #eee;">21 เม.ย. 68</td>
-        <td style="padding: 8px; border-bottom: 1px solid #eee;">วันเปิดภาคเรียน ภาคฤดูร้อน 2568</td>
-      </tr>
-      <tr>
-        <td style="padding: 8px; border-bottom: 1px solid #eee;">ศุกร์</td>
-        <td style="padding: 8px; border-bottom: 1px solid #eee;">9 พ.ค. 68</td>
-        <td style="padding: 8px; border-bottom: 1px solid #eee;">สอบกลางภาครายวิชา 01403111</td>
-      </tr>
-      <tr>
-        <td style="padding: 8px; border-bottom: 1px solid #eee;">ศุกร์</td>
-        <td style="padding: 8px; border-bottom: 1px solid #eee;">30 พ.ค. 68</td>
-        <td style="padding: 8px; border-bottom: 1px solid #eee;">สอบปลายภาครายวิชา 01403111</td>
-      </tr>
-    </tbody>
-  </table>
-</section>
-
-  <section id="portfolio">
-    <h2>Portfolio</h2>
-    <p>สวัสดีครับผมนายเมธี ใจสุขดี นิสิตชั้นปีที่ 2 หลักสูตรวิทยาสาสตรบัณฑิต สาขาเกษตรและสิ่งแวดล้อมศึกษา คณะศึกษาศาสตร์และพัฒนศาสตร์ มหาวิทยาลัยเกษตรศาสตร์ วิทยาเขตกำแพงแสน:</p>
-    <ul>
-      <li><strong>Project A</strong> - A web app built with React.</li>
-      <li><strong>Project B</strong> - A landing page for a startup.</li>
-      <li><strong>Project C</strong> - A minimal blog with Markdown support.</li>
-    </ul>
+  <section class="container my-5" id="about">
+    <h2>เกี่ยวกับเรา</h2>
+    <p>นี่คือพื้นที่สำหรับประวัติ วิสัยทัศน์ และพันธกิจของโรงเรียน</p>
   </section>
 
-  <section id="blog">
-    <h2>Blog</h2>
-    <p>I write about web development, design, and personal growth. Stay tuned for upcoming posts!</p>
+  <section class="container my-5" id="staff">
+    <h2>บุคลากร</h2>
+    <p>นี่คือรายชื่อผู้บริหาร ครู และเจ้าหน้าที่</p>
   </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>ติดต่อในเวลาราชการ <a href="methi.j@ku.th">email</a> or microsoft team <a href="methi.j@live.ku.th" target="_blank">microsoft team</a>.</p>
+  <section class="container my-5" id="departments">
+    <h2>กลุ่มสาระการเรียนรู้</h2>
+    <p>ข้อมูลกลุ่มสาระต่าง ๆ ของโรงเรียน</p>
   </section>
 
-  <footer>
-    &copy; 2025 methee jaisukdee. All rights reserved.
+  <section class="container my-5" id="contact">
+    <h2>ติดต่อเรา</h2>
+    <p>ที่อยู่ เบอร์โทรศัพท์ และอีเมลของโรงเรียน</p>
+  </section>
+
+  <footer class="text-center py-4">
+    <p>&copy; 2025 โรงเรียนกรรณสูตศึกษาลัย จังหวัดสุพรรณบุรี</p>
   </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
